@@ -14,17 +14,14 @@
 
 5. Name and describe two additional array methods.
 
-   `.first` method - this returns the first element in an array.
-`.sort` method - this sorts the elements in an array either alphabetically or numerically, depending on it's contents.
+   `.last` Returns the last element in an array.
+`.shuffle` Returns the elements of the array in a random order.
 
 6. What are the boolean values in Ruby?
-   The boolean values are `true` and `false`.
+   `true` and `false`
 
 7. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-    You would use the `==` operator.
-`2 == 25` would return false.
+`2 == 25` which would be false.
 
 8. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-
-   You would use the `>` operator.
-`25 > 2` would return true.
+`25 > 2` which would be true.
