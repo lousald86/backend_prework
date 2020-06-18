@@ -6,20 +6,18 @@
 name = "Ron"
 team = "Chudley Cannons"
 
-p "The #{team} are #{name}'s favorite Quidditch team"
-
-p "#{name}'s favorite quidditch team is the #{team}."
+puts "I don't know who the #{team} are, but #{name} loves them..."
 
 # Write code that combines the variables below into a string that reads "The
 # quick red fox jumped over the lazy brown dog":
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p "The #{speedy} jumped over the #{slow_poke}"
+puts "The #{speedy} red fox jumped over the #{slow_poke}."
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
 slow_poke = "tortoise"
 speedy = "hare"
 
-p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
+puts "In a predictable result, the #{slow_poke} beat the #{speedy}!"
