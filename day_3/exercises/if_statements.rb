@@ -9,18 +9,16 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'icy'
+  weather = 'snowy'
 
   if weather == 'sunny'
-    p "sunscreen"
+    p 'sunscreen'
   elsif weather == 'rainy'
-    p "umbrella"
+    p 'umbrella'
   elsif weather == 'snowy'
-    p "coat"
-  elsif weather == 'icy'
-    p "yak traks"
+    p 'coat'
   else
-    p "good to go!"
+    p 'yak traks'
   end
 
 # Manipulate the variable 'weather' to see if you can print something other
@@ -42,16 +40,19 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 3
+price = 2
 
-if num_quarters == 2 || 3
-  puts "I have enough money for a gumball"
-elsif num_quarters == 0 || 1
-  puts "I don't have enough money for a gumball"
-else
-  puts "I don't like gum."
+p "The price of a gumball is 2 quarters"
+p "How many quarters do you have?"
+  num_quarters = gets.chomp
+
+if num_quarters < price
+  p "I don't have enough money for a gumball"
+elsif num_quarters >= 3
+  p "I have enough money for a gumball"
+else num_quarters >= 4
+  p "DIABETUS!"
 end
-
 
 #####################
 # Using the variables defined below, determine if you have the

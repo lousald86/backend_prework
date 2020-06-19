@@ -1,6 +1,8 @@
+
 people = 20
 cats = 30
 dogs = 15
+
 
 if people < cats
   puts "Too many cats! The world is doomed!"
@@ -8,10 +10,6 @@ end
 
 if people > cats
   puts "Not many cats! The world is saved!"
-end
-# this is the one I wrote:
-if people < cats && !( dogs < cats && cats == people )
-  puts "Cats are taking over!"
 end
 
 if people < dogs
@@ -21,6 +19,7 @@ end
 if people > dogs
   puts "The world is dry!"
 end
+
 
 dogs += 5
 
@@ -32,9 +31,12 @@ if people <= dogs
   puts "People are less than or equal to dogs."
 end
 
+
 if people == dogs
   puts "People are dogs."
 end
+
+
 #Study Drills
 #1 - The if makes the code under it run only if the "if argument" parameters are met.
 #2 - The code below the if needs to be indented because the heirarchy of order needs
