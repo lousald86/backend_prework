@@ -3,33 +3,32 @@
 # file from your terminal with the command `ruby day_4/exercises/methods.rb`
 
 # example: Write a method below that, when called will print your name
-def print_name
-  p "Severus Snape"
+def my_name
+  puts "Luis"
 end
-
-print_name
+my_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
   puts name
 end
 
-print_name("Bradley Niedt")
+print_name("Luis Saldarriaga")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
+
 def add(a, b)
   puts "#{a + b}"
 end
+add(5, 5)
 
-add(1, 1)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
 
-def ad_lib(noun, verb)
-  puts "The #{noun} #{verb} all over the neighborhood."
+def family(huz, wife)
+  p "When #{huz} met #{wife}"
 end
-
-ad_lib("cat", "flew")
+family("Luis", "Bridget")
