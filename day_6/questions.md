@@ -1,15 +1,16 @@
 ## Day 5 Questions
 1. In your own words, what is a Class?
-
-    A class is a way to define and organize data and actions for objects in a way that is scalable and modular. Classes allow programmers to categorically organize objects, their data, and their actions.
+    A class is a sort of dictionary. It stores forms
+    of data known as object. It also stores the attributes
+    of the object and the actions they perform.
+    This is all kept in an organized fashion.
 
 1. In relation to a Class, what is an attribute?
-
-    An attribute is data that is assigned to an object in a class.
+    An attribute is a specific set of information about
+    any given object.
 
 1. In relation to a Class, what is behavior?
-
-    A behavior is an action or method that can be called/invoked on the class object.
+    Behavior is the action taken by an object via methods.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
@@ -20,14 +21,13 @@
         @breed = breed
         @age = age
       end
+
       def bark
-        p "Ruff!"
+        puts "WOOF!!"
       end
-      def breed
-        p "#{@name} is a #{@breed}."
-      end
-      def dog_years
-        p "#{@name} is #{@age * 7} years old in human-years."
+
+      def doggy_info
+        puts "#{@name} is a  #{@age} #{@breed}."
       end
     end```
 

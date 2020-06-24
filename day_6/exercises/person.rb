@@ -5,26 +5,21 @@
 class Person
   attr_accessor :name, :fav_food, :fav_color
 
-  def initialize(name, food, color)
+  def initialize(name, fav_food, fav_color)
     @name = name
-    @fav_food = food
-    @fav_color = color
+    @fav_food = fav_food
+    @fav_color = fav_color
   end
-  def about
-    p "#{@name} loves to wear a #{@fav_color} shirt, and eat #{@fav_food}."
+
+  def change_info(fav_food)
+    @fav_food = fav_food
   end
-  def change_food(food)
-    @fav_food = food
-    p "#{@name}'s new favorite food is #{@fav_food}."
-  end
-  def change_color(color)
-    @fav_color = color
-    p "#{@name}'s new favorite color is #{@fav_color}."
+
+  def info
+    "My name is #{@name} and i love the color #{fav_color} and love eating #{fav_food}."
   end
 end
-
-bradley = Person.new("Bradley", "pad thai", "green")
-bradley.about
-bradley.change_food("pizza")
-bradley.change_color("blue")
-bradley.about
+  luis = Person.new("Luis", "pizza", "green")
+  puts luis.info
+  luis.change_info("cheeseburgers")
+  puts luis.info

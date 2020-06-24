@@ -1,10 +1,5 @@
 class Student
-  attr_accessor :first_name, :favorite_number
-
-  def initialize(first_name, favorite_number)
-    @first_name = first_name
-    @favorite_number = favorite_number
-  end
+  attr_accessor :first_name, :last_name, :primary_phone_number
 
   def introduction(target)
     puts "Hi #{target}, I'm #{first_name}!"
@@ -17,5 +12,5 @@ end
 
 frank = Student.new
 frank.first_name = "Frank"
-frank.introduction("Molly")
 puts "Frank's favorite number is #{frank.favorite_number}."
+frank.introduction('Katrina')
